@@ -1,7 +1,20 @@
 # Unsupervised Learning with R 
-Project Overview
-This project explores unsupervised machine learning using hierarchical clustering in R. It uses two datasets—fish measurements and Palmer Penguins to explore patterns and similarities among observations based on numerical features.
-The project focuses on data preprocessing, feature scaling, distance calculations, hierarchical clustering, and interpreting cluster assignments.
+
+## Project Objectives
+The goal of this project was to explore how unsupervised machine learning can identify patterns and similarities within a dataset without relying on predefined labels during the clustering process.
+Using the Palmer Penguins dataset, the project explores how physical measurements can be used to group observations through hierarchical clustering.
+Specific objectives include:
+- Understand the fundamentals of unsupervised learning.
+- Apply data preprocessing and feature scaling.
+- Explore similarities between observations using Euclidean distance.
+- Implement hierarchical clustering using complete linkage.
+- Visualize cluster relationships using dendrograms and scatterplots.
+- Compare the resulting clusters with the original penguin species labels.
+## why Hierarchical Clustering
+
+Hierarchical clustering was selected because it provides a way to explore relationships between observations and organize similar data points into groups.
+Unlike supervised learning, this approach does not require predefined target labels to form clusters.
+The dendrogram provides a visual representation of how observations are progressively grouped based on their distances, making it useful for exploring patterns within the dataset.
 
 ## Datasets 
 1. Fish Dataset
@@ -59,6 +72,18 @@ This scatterplot displays the cluster assignments based on flipper length and bo
 
 This scatterplot compares the cluster assignments with the original penguin species labels. It provides another perspective on how the observations are distributed across the clusters.
 
+## Key Learning Outcomes
+
+Through this project, I developed a better understanding of:
+
+- How unsupervised learning identifies patterns without predefined target labels.
+- How feature selection and scaling influence distance-based algorithms.
+- How Euclidean distance measures similarities between observations.
+- How complete linkage determines relationships between clusters.
+- How dendrograms represent hierarchical relationships.
+- How cluster assignments can be compared with existing categorical labels without using those labels during model training.
+
+This project helped strengthen my understanding of the relationship between mathematical concepts, data preprocessing, and machine learning techniques.
 
 
 
